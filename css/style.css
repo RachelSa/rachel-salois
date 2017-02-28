@@ -1,0 +1,63 @@
+#cactus {
+  max-width: 200px;
+  position: static;
+  z-index: -1;
+}
+
+#light{
+  z-index: 0;
+  position: static;
+  width: 32px;
+  left: 190px;
+  top:153px;
+  -ms-transform: rotate(-12deg); /* IE 9 */
+  -webkit-transform: rotate(-12deg); /* Chrome, Safari, Opera */
+  transform: rotate(-12deg);
+}
+
+#title {
+  font-size: 3em;
+  margin-bottom: -1em;
+  opacity: 1.0;
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+  text-align: right;
+}
+
+#subtitle {
+  font-size: 2em;
+  margin-top: 3em;
+  font-size: 1em;
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+  text-align: right;
+}
+
+p {
+  font-family: "Courier New", Courier, monospace;
+  margin-left: 10px;
+}
+
+.text-column {
+  background-color: white;
+  opacity: 0.9;
+  z-index: 1
+}
+
+.flex-container {
+    display: -webkit-flex;
+    display: flex;
+    width: 100%;
+    height: auto;
+    padding: 0% 5% 5% 5%;
+}
+
+.flex-column {
+    width: 66%;
+    height: auto;
+    margin: 0% 25% 0% 0%;
+}
+
+.flex-cactus-column {
+    width: 33%;
+    height: auto;
+    margin: 10px;
+}
