@@ -4,15 +4,17 @@
   z-index: -1;
 }
 
-#light{
-  z-index: 0;
-  position: static;
-  width: 32px;
-  left: 190px;
-  top:153px;
-  -ms-transform: rotate(-12deg); /* IE 9 */
-  -webkit-transform: rotate(-12deg); /* Chrome, Safari, Opera */
-  transform: rotate(-12deg);
+#hi-there {
+  max-width:250px;
+}
+
+#im-rachel {
+  max-width: 175px;
+}
+
+#arrow {
+  max-width: 50px;
+  float: left;
 }
 
 #title {
