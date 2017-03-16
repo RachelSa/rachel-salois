@@ -1,14 +1,14 @@
-$.holdReady( true )
+
 $.getScript( "content.js", function() {
   console.log( "What is the difference between a cat and a comma?" )
-  $.holdReady( false )
-})
-
-$( document ).ready(function(){
+  $( document ).ready(function(){
   console.log( "One has the paws before the claws and the other has the clause before the pause." )
   $textColumn.append(loadContent())
   }
 )
+})
+
+
 
 $catMode = $( "#cat-mode" )
 $textColumn = $( "#inner-text" )
