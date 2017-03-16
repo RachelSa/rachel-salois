@@ -1,5 +1,7 @@
+$.holdReady( true )
 $.getScript( "content.js", function() {
   console.log( "What is the difference between a cat and a comma?" )
+  $.holdReady( false )
 })
 
 $( document ).ready(function(){
