@@ -5,9 +5,7 @@ $.getScript( "content.js", function() {
 $catMode = $( "#cat-mode" )
 $textColumn = $( "#inner-text" )
 
-$( document ).ready(function() {
-    $textColumn.append( loadContent() )
-})
+$( document ).ready(humanMode)
 
 $catMode.click(checkMode)
 
