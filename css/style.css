@@ -32,6 +32,12 @@
   text-align: right;
 }
 
+.top {
+  position:absolute;
+  top:0;
+  right:0;
+}
+
 p {
   font-family: "Courier New", Courier, monospace;
   margin-left: 10px;
