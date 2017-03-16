@@ -2,10 +2,14 @@ $.getScript( "content.js", function() {
   console.log( "What is the difference between a cat and a comma?" )
 })
 
+$( document ).ready(function(){
+  console.log( "One has the paws before the claws and the other has the clause before the pause." )
+  $textColumn.append(loadContent())
+  }
+)
+
 $catMode = $( "#cat-mode" )
 $textColumn = $( "#inner-text" )
-
-$( document ).ready(humanMode)
 
 $catMode.click(checkMode)
 
@@ -46,7 +50,6 @@ function humanMode(){
 }
 
 function catContent(){
-  console.log( "One has the paws before the claws and the other has the clause before the pause." )
   var fullContent = ""
   $.each(CONTENT, function(index, value) {
     fullContent += "<p>"
