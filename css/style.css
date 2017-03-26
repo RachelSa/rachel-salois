@@ -1,7 +1,14 @@
+/* images */
 #cactus {
   max-width: 250px; 
   z-index: -1;
 }
+
+#arrow {
+  max-width: 50px;
+  float: left;
+}
+/* titles */
 
 #hi-there {
   max-width:250px;
@@ -9,11 +16,6 @@
 
 #im-rachel {
   max-width: 175px;
-}
-
-#arrow {
-  max-width: 50px;
-  float: left;
 }
 
 #title {
@@ -32,11 +34,50 @@
   text-align: right;
 }
 
-.top {
-  position:absolute;
-  top:0;
-  right:0;
+/* nav */ 
+
+#cat-mode a{
+  position: absolute;
+  right: 10px;
+  top: 12px;
+  text-decoration: none;
+  color: #C8C8C8; 
 }
+
+#human-mode a{
+  position: absolute;
+  right: 10px;
+  top: 12px;
+  text-decoration: none;
+  color: #f20d0d;
+}
+
+#nav-links {
+  text-align: center;
+  text-decoration: none;
+}
+
+.nav{
+    list-style:none;
+    margin:0;
+    padding:0;
+    text-align:center;
+}
+.nav li{
+    display:inline;
+}
+.nav a{
+    display:inline-block;
+    padding:.5%;
+    text-decoration: none;
+    color: #000000;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/*text*/
 
 p {
   font-family: "Courier New", Courier, monospace;
@@ -46,6 +87,8 @@ p {
 a {
     color: #f20d0d;
 }
+
+/*containers*/
 
 .text-column {
   background-color: white;

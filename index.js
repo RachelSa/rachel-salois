@@ -1,4 +1,5 @@
 
+// python -m SimpleHTTPServer 8000
 $.getScript( "content.js", function() {
   console.log( "What is the difference between a cat and a comma?" )
   $( document ).ready(function(){
@@ -8,10 +9,9 @@ $.getScript( "content.js", function() {
 )
 })
 
-
-
 $catMode = $( "#cat-mode" )
 $textColumn = $( "#inner-text" )
+$subtitle = $( "#subtitle")
 
 $catMode.click(checkMode)
 
@@ -38,8 +38,9 @@ function loadContent(){
 
 
 function catMode(){
-  $catMode.html("<a href=\"#\">human mode</a>")
+  // $catMode.html("<a href=\"#\">human mode</a>")
   $catMode.prop('id', 'human-mode')
+  $subtitle.html("full-stack developer / cat admirer")
   $textColumn.empty()
   $textColumn.append( catContent() )  
 }
@@ -47,6 +48,7 @@ function catMode(){
 function humanMode(){
   $catMode.html("<a href=\"#\">cat mode</a>")
   $catMode.prop('id', 'cat-mode')
+  $subtitle.html("full-stack developer / cactus owner")
   $textColumn.empty()
   $textColumn.append( loadContent() )
 }
@@ -101,23 +103,3 @@ function capitalize(text){
   })
 return capitalized[0]
 }
-
-
-// function findPunct(text){
-//   var regex = /[.,\/#!$%\^&\*;:{}=\-_`~()]/g, result, indices = []
-//   while ( (result = regex.exec(text)) ) {
-//     indices.push(result.index);
-//   }
-//   return indices
-// }
-
-// function linkSubstrings(id){
-//   var text = document.getElementById(id).innerHTML
-//   var indices = findLinks(id), end = text.length, links = []
-
-//   for (index in indices){
-//     endIndex = text.substr(index, end).search(">")
-//     links.push([index, endIndex])
-//   } 
-//   return links
-// }
