@@ -2,36 +2,36 @@ const CONTENT = {
   websites: {
     content: [
       "I like to make cool websites",
-      "." 
+      "."
       ]
     },
-  blog: { 
+  blog: {
     content: [
-      "On my ", 
-      "<a title=\"blog\" href=\"https://rachelscodenotes.wordpress.com/\" target=\"_blank\">blog</a>", 
+      "On my ",
+      "<a title=\"blog\" href=\"https://rachelscodenotes.wordpress.com/\" target=\"_blank\">blog</a>",
       ", I write about some of my more interesting programming-related discoveries",
-      "." 
+      "."
       ]
-    }, 
-  twitter: { 
+    },
+  twitter: {
     content: [
       "Sometimes I ",
       "<a title=\"twitter\" href=\"https://twitter.com/rachel_salois\" target=\"_blank\">tweet</a>",
       "."
       ]
-    }, 
-  rails: { 
+    },
+  rails: {
     content: [
-      "I've made some fun projects using frameworks and libraries such as ",
+      "I've made some fun projects using ",
       "<a title=\"rails\" href=\"https://github.com/bobertoo/pretty-kitty-city\" target=\"_blank\">Rails</a>",
       ", ",
       "<a title=\"jQuery\" href=\"https://github.com/clintonn/dont-read-the-comments\" target=\"_blank\">jQuery</a>",
       ", ",
       "<a title=\"React-Redux\" href=\"https://github.com/acohn93/react-redux-playlist-buddy\" target=\"_blank\">React, and Redux</a>",
-      "." 
+      "."
       ]
-    },  
-  career: { 
+    },
+  career: {
     content: [
       "Fun fact about my ",
       "<a title=\"career\" href=\"https://www.linkedin.com/in/rachel-salois-a07a2320/\" target=\"_blank\">career</a>",
@@ -40,7 +40,7 @@ const CONTENT = {
       "."
       ]
     },
-  cactus: { 
+  cactus: {
     content: [
       "Occasionally",
       ",",
@@ -50,13 +50,12 @@ const CONTENT = {
       "."
     ]
   },
-  look: { 
+  look: {
     content: [
       "This is pretty much what it looks like",
       ",",
       " give or take a few prickles",
       "."
    ]
-  }  
+  }
 }
-
