@@ -2,7 +2,7 @@ const HUMAN_CONTENT = `<p>I like to make cool websites.</p>
 
 <p>On my <a title='blog' href="https://rachelscodenotes.wordpress.com/" target='_blank'>blog</a>, I write about some of my more interesting programming-related discoveries.</p>
 
-<p>Sometimes <a title='twitter' href='https://twitter.com/rachel_salois' target='_blank'>tweet</a>.</p>
+<p>Sometimes I <a title='twitter' href='https://twitter.com/rachel_salois' target='_blank'>tweet</a>.</p>
 
 <p>I've made some fun projects using <a title='rails' href='https://github.com/bobertoo/pretty-kitty-city' target='_blank'>Rails</a>, <a title="javascript" href="https://github.com/rachelsa/birthday-plaid" target="_blank">JavaScript</a>, <a title="React-Redux" href="https://github.com/acohn93/react-redux-playlist-buddy" target="_blank">React, and Redux</a>.</p>
 
@@ -17,7 +17,7 @@ const CAT_CONTENT = `<p>Meow meow meow meow meow meow.</p>
 
 <p>Meow meow <a title='blog' href=\"https://rachelscodenotes.wordpress.com/" target='_blank'>blog</a>, meow meow meow meow meow meow meow meow meow-meow meow.</p>
 
-<p>Meow <a title='twitter' href='https://twitter.com/rachel_salois' target='_blank'>tweet</a>.</p>
+<p>Meow meow <a title='twitter' href='https://twitter.com/rachel_salois' target='_blank'>tweet</a>.</p>
 
 <p>Meow meow meow meow meow meow <a title='rails' href='https://github.com/bobertoo/pretty-kitty-city' target='_blank'>Rails</a>, <a title="javascript" href="https://github.com/rachelsa/birthday-plaid" target="_blank">JavaScript</a>, <a title="React-Redux" href="https://github.com/acohn93/react-redux-playlist-buddy" target="_blank">React, and Redux</a>.</p>
 
