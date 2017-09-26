@@ -1,5 +1,5 @@
 #cactus {
-  max-width: 250px; 
+  max-width: 250px;
   z-index: -1;
 }
 
@@ -29,6 +29,9 @@
   margin-top: 3em;
   font-size: 1em;
   font-family: "Trebuchet MS", Helvetica, sans-serif;
+}
+
+.right-align {
   text-align: right;
 }
 
@@ -43,14 +46,20 @@ p {
   margin-left: 10px;
 }
 
+li {
+  font-family: "Courier New", Courier, monospace;
+  font-size: .85em;
+}
+
 a {
     color: #f20d0d;
+    text-decoration: none;
 }
 
 .text-column {
   background-color: white;
   opacity: 0.9;
-  z-index: 1
+  z-index: 1;
 }
 
 .flex-container {
@@ -58,7 +67,7 @@ a {
     display: flex;
     width: 100%;
     height: auto;
-    padding: 4% 8% 5% 5%;
+    padding: 5%;
 }
 
 .flex-column {
@@ -70,4 +79,9 @@ a {
 .flex-cactus-column {
     width: 33%;
     height: auto;
+}
+
+
+#project-updates {
+  margin: 0% 12% 12% 12%
 }
