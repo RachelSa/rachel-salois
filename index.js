@@ -3,7 +3,7 @@ const catModeEl = document.getElementById("cat-mode")
 
 window.onload = () => {
   console.log( "What is the difference between a cat and a comma?" )
-  window.addEventListener("click", checkMode)
+  catModeEl.addEventListener("click", checkMode)
   humanMode()
 }
 
