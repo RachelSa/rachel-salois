@@ -1,4 +1,4 @@
-const HUMAN_CONTENT = `<p>I like to make cool websites.</p>
+const HUMAN_CONTENT = `<p>I like to make cool web apps.</p>
 
 <p>On my <a title='blog' href="https://rachelscodenotes.wordpress.com/" target='_blank'>blog</a>, I write about some of my more interesting programming-related discoveries.</p>
 
@@ -13,7 +13,7 @@ const HUMAN_CONTENT = `<p>I like to make cool websites.</p>
 <p>This is pretty much what it looks like, give or take a few prickles.</p>`
 
 
-const CAT_CONTENT = `<p>Meow meow meow meow meow meow.</p>
+const CAT_CONTENT = `<p>Meow meow meow meow meow meow meow.</p>
 
 <p>Meow meow <a title='blog' href=\"https://rachelscodenotes.wordpress.com/" target='_blank'>blog</a>, meow meow meow meow meow meow meow meow meow-meow meow.</p>
 
