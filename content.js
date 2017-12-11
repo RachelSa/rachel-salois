@@ -1,4 +1,4 @@
-const HUMAN_CONTENT = `<p>I like to make cool websites.</p>
+const HUMAN_CONTENT = `<p>I like to make cool web apps.</p>
 
 <p>On my <a title='blog' href="https://rachelscodenotes.wordpress.com/" target='_blank'>blog</a>, I write about some of my more interesting programming-related discoveries.</p>
 
