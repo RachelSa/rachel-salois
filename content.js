@@ -4,9 +4,9 @@ const HUMAN_CONTENT = `<p>I like to make cool web apps.</p>
 
 <p>Sometimes <a title='twitter' href='https://twitter.com/rachel_salois' target='_blank'>tweet</a>.</p>
 
-<p>I've made some fun projects using <a title='rails' href='https://github.com/bobertoo/pretty-kitty-city' target='_blank'>Rails</a>, <a title="javascript" href="https://github.com/rachelsa/birthday-plaid" target="_blank">JavaScript</a>, <a title="React-Redux" href="https://github.com/acohn93/react-redux-playlist-buddy" target="_blank">React, and Redux</a>.</p>
+<p>I've made some fun projects using <a title='rails' href='https://github.com/RachelSa/skcdc' target='_blank'>Rails</a>, <a title="javascript" href="http://rachelsalois.com/birthday-plaid/" target="_blank">JavaScript</a>, <a title="React-Redux" href="http://rachelsalois.com/rainward/" target="_blank">React</a>, and <a href="https://github.com/acohn93/react-redux-playlist-buddy" target="_blank">Redux</a>.</p>
 
-<p>Fun fact about my <a title="career" href="https://www.linkedin.com/in/rachel-salois-a07a2320/" target="_blank">career</a>: I have read (for work) more post-apocalyptic novels than anyone I know.</p>
+<p>Fun fact about my <a title="career" href="https://www.linkedin.com/in/rachel-salois/" target="_blank">career</a>: I have read (for work) more post-apocalyptic novels than anyone I know.</p>
 
 <p>Occasionally, in my spare time, I care for a cactus that lives at my apartment.</p>
 
