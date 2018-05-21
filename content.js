@@ -2,7 +2,7 @@ const HUMAN_CONTENT = `<p>I like to make cool web apps.</p>
 
 <p>On my <a title='blog' href="https://rachelscodenotes.wordpress.com/" target='_blank'>blog</a>, I write about some of my more interesting programming-related discoveries.</p>
 
-<p>Sometimes <a title='twitter' href='https://twitter.com/rachel_salois' target='_blank'>tweet</a>.</p>
+<p>Sometimes I <a title='twitter' href='https://twitter.com/rachel_salois' target='_blank'>tweet</a>.</p>
 
 <p>I've made some fun projects using <a title='rails' href='https://github.com/RachelSa/skcdc' target='_blank'>Rails</a>, <a title="javascript" href="http://rachelsalois.com/birthday-plaid/" target="_blank">JavaScript</a>, <a title="React-Redux" href="http://rachelsalois.com/rainward/" target="_blank">React</a>, and <a href="https://github.com/acohn93/react-redux-playlist-buddy" target="_blank">Redux</a>.</p>
 
