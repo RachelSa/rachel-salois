@@ -13,8 +13,7 @@ const CAT_CONTENT = `<p>Meow meow meow meow meow meow meow meow meow meow.</p>
 
 <p>Meow, meow meow meow meow <a href="https://github.com/RachelSa/rainward" target="_blank">this React app</a> meow meow meow meow meow meow meow meow meow meow. Meow meow meow <a href="https://floating-escarpment-37906.herokuapp.com/suggestions/" target="_blank">Rails API</a> meow meow <a href="https://github.com/RachelSa/rainward-api" target="_blank">snazzy documentation</a>.</a></p>
 
-<p>Meow meow meow meow <a title="career" href="https://www.linkedin.com/in/rachel-salois/" target="_blank">career</a>:
- meow meow meow (meow meow) meow meow-meow meow meow meow meow meow.</p>
+<p>Meow meow <a title="career" href="https://www.linkedin.com/in/rachel-salois/" target="_blank">about my career</a>: meow meow meow meow meow meow meow meow meow meow, meow meow meow meow meow meow meow meow.</p>
 
 <p>Meow, meow meow meow meow, meow meow meow meow meow meow meow meow meow meow.</p>
 
