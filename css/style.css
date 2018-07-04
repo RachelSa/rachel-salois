@@ -41,13 +41,11 @@
   right:0;
 }
 
-p {
+* {
   font-family: "Courier New", Courier, monospace;
-  margin-left: 10px;
 }
 
 li {
-  font-family: "Courier New", Courier, monospace;
   font-size: .85em;
 }
 
@@ -58,8 +56,10 @@ a {
 
 .text-column {
   background-color: white;
-  opacity: 0.9;
+  opacity: 0.98;
   z-index: 1;
+  padding-left: 2%;
+  min-width: 250px;
 }
 
 .flex-container {
@@ -71,13 +71,13 @@ a {
 }
 
 .flex-column {
-    width: 66%;
+    width: 80%;
     height: auto;
-    margin: 0% 20% 0% 0%;
+    margin: 0% 20% 0% 5%;
 }
 
 .flex-cactus-column {
-    width: 33%;
+    width: 20%;
     height: auto;
 }
 
@@ -88,4 +88,8 @@ a {
   height:auto;
   display:inline-block;
   padding: 4%;
+}
+
+.sub-text {
+  font-size: .8em;
 }
